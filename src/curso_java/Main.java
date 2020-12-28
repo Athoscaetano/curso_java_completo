@@ -10,8 +10,10 @@ public class Main {
 
         ExerciciosSequencial exerciciosSequencial = new ExerciciosSequencial();
         ExerciciosCondicional exerciciosCondicional = new ExerciciosCondicional();
+        ExerciciosRepeticao exerciciosRepeticao = new ExerciciosRepeticao();
 
-        exerciciosCondicional.exercicio8();
-    }
+        exerciciosRepeticao.exercicio7();
+
+     }
 }
 
