@@ -9,12 +9,9 @@ public class Main {
         Locale.setDefault(Locale.US);
 
         ExerciciosSequencial exerciciosSequencial = new ExerciciosSequencial();
-        // exerciciosSequencial.exercicio1();
-        // exerciciosSequencial.exercicio2();
-        // exerciciosSequencial.exercicio3();
-        // exerciciosSequencial.exercicio4();
-        //exerciciosSequencial.exercicio5();
-        exerciciosSequencial.exercicio6();
+        ExerciciosCondicional exerciciosCondicional = new ExerciciosCondicional();
+
+        exerciciosCondicional.exercicio8();
     }
 }
 
