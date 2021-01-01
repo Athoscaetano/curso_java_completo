@@ -11,9 +11,8 @@ public class Main {
         ExerciciosSequencial exerciciosSequencial = new ExerciciosSequencial();
         ExerciciosCondicional exerciciosCondicional = new ExerciciosCondicional();
         ExerciciosRepeticao exerciciosRepeticao = new ExerciciosRepeticao();
-
-        exerciciosRepeticao.exercicio7();
-
+        Funcoes funcoes = new Funcoes();
+        MaiorTriangulo maiorTriangulo = new MaiorTriangulo();
      }
 }
 
