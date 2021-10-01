@@ -10,4 +10,6 @@ public class Calculator {
     public static double volume(double radius) {
         return 4 * Calculator.PI * radius * radius * radius / 3.0;
     }
+
+    public static double dolarToReal(double dolarCotation, double dolarAmount) { return  dolarAmount * dolarCotation * 1.06; }
 }
