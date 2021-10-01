@@ -8,7 +8,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
-        Product product = new Product("Mesa", 1200, 10);
+        Product product = new Product("Mesa", 1873);
 
         product.addProducts(10);
 
