@@ -1,4 +1,6 @@
-package construtores;
+package encapsulamento;
+
+import construtores.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,9 +12,6 @@ public class Main {
 
         Product product = new Product("Mesa", 1873);
 
-        product.addProducts(10);
-
-        System.out.println(product.toString());
 
         scanner.close();
     }
