@@ -37,7 +37,7 @@ public class ContaBancaria {
         this.saldo += valor;
     }
 
-    public void sacar(double valor) throws Exception {
+    public void sacar(double valor) {
         double taxaSaque = 5.00;
         double valorTotalSaque = valor + taxaSaque;
 
@@ -47,10 +47,11 @@ public class ContaBancaria {
     public void dadosDaConta() {
         System.out.println("Dados da conta: ");
         System.out.print("Número: ");
-        System.out.println(this.getNumero());
+        System.out.print(this.getNumero() + " ");
         System.out.print("Titular: ");
-        System.out.println(this.getNomeTitular());
+        System.out.print(this.getNomeTitular() + " ");
         System.out.print("Valor: ");
-        System.out.println(this.getSaldo());
+        System.out.print(this.getSaldo());
+        System.out.println();
     }
 }

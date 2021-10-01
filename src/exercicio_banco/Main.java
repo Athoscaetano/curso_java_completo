@@ -1,11 +1,10 @@
 package exercicio_banco;
 
-
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
@@ -18,6 +17,14 @@ public class Main {
         double depositoInicial = scanner.nextDouble();
 
         ContaBancaria contaBancaria = new ContaBancaria(numeroDaConta, titular, depositoInicial);
+
+        contaBancaria.dadosDaConta();
+
+        contaBancaria.sacar(200);
+
+        contaBancaria.dadosDaConta();
+
+        contaBancaria.depositar(300);
 
         contaBancaria.dadosDaConta();
 
